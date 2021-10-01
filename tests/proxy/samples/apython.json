@@ -1,0 +1,10 @@
+{
+    "prefix": "/python",
+    "route": {
+        "target": "http://localhost:8000",
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/python": ""
+        }
+     }
+}

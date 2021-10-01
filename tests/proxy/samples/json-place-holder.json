@@ -1,0 +1,10 @@
+{
+    "prefix": "/json_placeholder",
+    "route": {
+        "target": "https://jsonplaceholder.typicode.com",
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/json_placeholder": ""
+        }
+     }
+}

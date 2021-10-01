@@ -1,0 +1,10 @@
+{
+    "prefix": "{{ TEST_ENV }}",
+    "route": {
+        "target": "https://jteodoro.free.beeceptor.com",
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/bin": ""
+        }
+     }
+}

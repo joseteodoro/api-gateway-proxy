@@ -1,0 +1,10 @@
+{
+    "prefix": "/webserviceaol",
+    "route": {
+        "target": "{{ SERVER_WEBSERVICE }}",
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/webserviceaol": ""
+        }
+     }
+}
