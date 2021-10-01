@@ -4,7 +4,7 @@
         "target": "{{ SERVER_WEBSERVICE }}",
         "changeOrigin": true,
         "pathRewrite": {
-            "^/webservice": ""
+            "^/webserviceaol": ""
         }
      }
 }
